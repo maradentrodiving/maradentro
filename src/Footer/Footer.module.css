@@ -1,4 +1,26 @@
 .footer {
-  background-color: #2d2d2d;
-  min-height: 70px;
+  background-color: lightgrey; /*#2d2d2d*/;
+  min-height: 120px;
+  padding-top: 17px;
+  padding-bottom: 20px;
+}
+
+.contactList {
+  list-style: none;
+}
+
+.contactList li {
+  margin: 10px;
+}
+
+.icon {
+  font-size: 24px;
+  margin-bottom: -5px;
+  margin-right: 5px;
+}
+
+.whatsappIcon {
+  composes: icon;
+  color: green;
+  margin-right: 3px;
 }
