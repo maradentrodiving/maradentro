@@ -15,12 +15,17 @@
 }
 
 .footer section {
+  flex-grow: 1;
   margin: 10px;
   min-width: 75px;
 }
 
 .footer h1 {
   font-size: 24px;
+}
+
+.footer section:first-child h1 {
+  padding-left: 12px;
 }
 
 .footer ul {
@@ -40,16 +45,23 @@
 
 .socialIcon {
   font-size: 42px;
+  color: black;
 }
 
 /* Display as one line. */
 .socialIcons {
   display: flex;
   list-style: none;
+  color: black;
 }
 
 .whatsappIcon {
   composes: icon;
-  color: green;
+  color: #17980E;
   margin-right: 3px;
+}
+
+.facebookIcon {
+  composes: socialIcon;
+  color: #3A5796;
 }
