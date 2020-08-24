@@ -1,3 +1,12 @@
+/*
+ * Sticky footer. Also see Footer.module.css.
+ * https://codeconvey.com/make-responsive-sticky-footer-using-javascript/
+ */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

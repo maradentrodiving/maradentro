@@ -3,6 +3,16 @@
   min-height: 120px;
   padding-top: 17px;
   padding-bottom: 20px;
+
+  /*
+   * Sticky footer. Also see index.css.
+   * https://codeconvey.com/make-responsive-sticky-footer-using-javascript/
+   */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
 }
 
 .contactList {
