@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Header.module.css'
 import * as routes from '../routes'
-import { A } from 'hookrouter'
+// import { A } from 'hookrouter'
 
 function debug (what) {
   console.log(what)
