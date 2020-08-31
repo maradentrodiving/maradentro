@@ -1,11 +1,11 @@
 export const en = {
-  homePagePath: '/',
-  aboutPagePath: '/about',
-  contactPagePath: '/contact'
+  homePagePath: {path: '/', label: 'Home'},
+  aboutPagePath: {path: '/about', label: 'About'},
+  contactPagePath: {path: '/contact', label: 'Contact us'},
 }
 
 export const es = {
-  homePagePath: '/',
-  aboutPagePath: '/acerca-de',
-  contactPagePath: '/contacto'
+  homePagePath: {path: '/', label: 'Home'},
+  aboutPagePath: {path: '/acerca-de', label: 'Acerca de'},
+  contactPagePath: {path: '/contacto', label: 'Contacto'},
 }

@@ -10,6 +10,7 @@ export default function Map () {
     <div className={styles.mapOuter}>
       <div className={styles.gmapCanvas}>
         <iframe
+          title="Google Map of Mar Adentro location"
           width="445"
           height="276"
           id="gmap_canvas"

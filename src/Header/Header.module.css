@@ -2,3 +2,15 @@
   background-color: green;
   min-height: 70px;
 }
+
+.header ul {
+  display: flex;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.header ul li {
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style: none;
+}

@@ -1,13 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 
 import ErrorBoundary from '../Errors/Errors'
 
-import { useRoutes } from 'hookrouter'
+import { useRoutes, navigate } from 'hookrouter'
 import routes from '../router'
 
 import { LangContextProvider } from '../LangContext'
+
+function GoHome () {
+  useEffect(() => {
+    console.log("~ HTTP 404, redirecting to the home page.")
+    navigate('/', true)
+  })
+
+  return (
+    <p>Page not found.</p>
+  )
+}
 
 export default function App () {
   const currentRoute = useRoutes(routes)
@@ -20,7 +31,7 @@ export default function App () {
 
       <main /*className={styles.mainColumn}*/>
         <ErrorBoundary>
-          {currentRoute || routes.en.HomePagePath /* TODO: No solo EN */}
+          {currentRoute || <GoHome /> }
         </ErrorBoundary>
       </main>
 
