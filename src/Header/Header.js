@@ -3,11 +3,6 @@ import styles from './Header.module.css'
 import * as routes from '../routes'
 // import { A } from 'hookrouter'
 
-function debug (what) {
-  console.log(what)
-  return null
-}
-
 const RouteLabel = ({ route }) => (
   <li>
     {/* <A href={route.path}>{route.label}</A> */}

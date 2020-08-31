@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './AboutPage.module.css'
 
-export default function AboutPage () {
+export default function AboutPage ({ lang }) {
   return (
     <>
-      About
+      About {lang}
     </>
   )
 }

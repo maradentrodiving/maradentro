@@ -5,19 +5,6 @@ import HomePage from './HomePage/HomePage'
 import AboutPage from './AboutPage/AboutPage'
 import ContactPage from './ContactPage/ContactPage'
 
-function generate(what) {
-  return () => {
-    console.log(what)
-    return <>Page: {what}</>
-  }
-}
-
-export default {
-  '/': generate('Home'),
-  '/about': generate('about'),
-  '/contact': generate('contact'),
-}
-/*
 export default {
   // Without default language.
   [routes.en.homePagePath.path]: () => <HomePage />,
@@ -30,4 +17,3 @@ export default {
   [routes.es.aboutPagePath.path]: () => <AboutPage lang="es" />,
   [routes.es.contactPagePath.path]: () => <ContactPage lang="es" />,
 }
-*/

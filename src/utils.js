@@ -4,3 +4,8 @@ export function assert (condition, message) {
   }
   return condition
 }
+
+export function debug (what) {
+  console.log(what)
+  return what
+}
