@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import LangContext from '../LangContext'
 import styles from './Header.module.css'
 import * as routes from '../routes'
 // import { A } from 'hookrouter'
@@ -19,9 +20,11 @@ const RouteLabels = ({ routes }) => (
 )
 
 export default function Header () {
+  const { setLang } = useContext(LangContext)
+
   return (
     <header className={styles.header}>
-      <RouteLabels routes={routes.en} />
+      <RouteLabels routes={routes[setLang]} />
     </header>
   )
 }

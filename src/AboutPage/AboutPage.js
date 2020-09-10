@@ -16,7 +16,6 @@ const translations = {
 export default function AboutPage ({ lang }) {
   const { setLang, setLangFn, t } = useContext(LangContext)
 
-  console.log([setLang, lang])
   useEffect(() => {
     if (setLang !== lang) setLangFn(lang)
   })
