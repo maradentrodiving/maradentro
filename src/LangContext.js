@@ -15,6 +15,7 @@ export function LangContextProvider ({ children }) {
 
   const [ setLang, _setLangFn ] = useState(validateLanguage(storedLanguage) || browserOrDefaultLanguage)
 
+  // This needs to be called from useEffect.
   function setLangFn(toLang) {
     if (validateLanguage(toLang)) {
       console.log(`~ Setting lang from ${setLang} to ${toLang} ${JSON.stringify({default: browserOrDefaultLanguage, stored: storedLanguage}).replace(/"/g, '').replace(/[,:]/g, '$& ')}`)

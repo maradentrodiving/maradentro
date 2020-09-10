@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useEffect, useContext } from 'react'
 import LangContext from '../LangContext'
 import { useTitle } from 'hookrouter'
 
@@ -17,7 +17,9 @@ export default function AboutPage ({ lang }) {
   const { setLang, setLangFn, t } = useContext(LangContext)
 
   console.log([setLang, lang])
-  if (setLang !== lang) setLangFn(lang)
+  useEffect(() => {
+    if (setLang !== lang) setLangFn(lang)
+  })
 
   useTitle(t(translations.title))
 
