@@ -9,22 +9,25 @@ const validateLanguage = (lang) => (
 
 export function LangContextProvider ({ children }) {
   const browserOrDefaultLanguage = (navigator.language || '').match(/^es/) ? 'es' : 'en'
-  const setLanguage = localStorage.getItem('lang')
 
-  const [ lang, _setLang ] = useState(validateLanguage(setLanguage) || browserOrDefaultLanguage)
+  // This is set when we click the language flag.
+  const storedLanguage = localStorage.getItem('lang')
 
-  function setLang(toLang) {
+  const [ setLang, _setLangFn ] = useState(validateLanguage(storedLanguage) || browserOrDefaultLanguage)
+
+  function setLangFn(toLang) {
     if (validateLanguage(toLang)) {
-    _setLang(toLang)
+      console.log(`~ Setting lang from ${setLang} to ${toLang} ${JSON.stringify({default: browserOrDefaultLanguage, stored: storedLanguage}).replace(/"/g, '').replace(/[,:]/g, '$& ')}`)
+      _setLangFn(toLang)
     } else {
       console.error(`Lang not supported: ${toLang}`)
     }
   }
 
-  const t = ([ enTranslation, esTranslation ]) => assert(lang === 'en' ? enTranslation : esTranslation)
+  const t = ([ enTranslation, esTranslation ]) => assert(setLang === 'en' ? enTranslation : esTranslation)
 
   return (
-    <LangContext.Provider value={{lang, setLang, t}}>
+    <LangContext.Provider value={{setLang, setLangFn, t}}>
       {children}
     </LangContext.Provider>
   )
