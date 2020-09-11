@@ -14,3 +14,10 @@
   padding-right: 10px;
   list-style: none;
 }
+
+.lang {
+  font-size: 32px;
+  position: absolute;
+  right: 0px;
+  margin: 5px;
+}
