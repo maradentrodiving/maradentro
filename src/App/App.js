@@ -1,6 +1,8 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+
+import styles from './App.module.css'
 
 import ErrorBoundary from '../Errors/Errors'
 
@@ -22,6 +24,12 @@ function GoHome () {
 
 export default function App () {
   const currentRoute = useRoutes(routes)
+  const body = useRef()
+
+  useEffect(() => {
+    const footer = document.querySelector('footer')
+    body.current.style.paddingBottom = `${footer.clientHeight + 20}px`
+  })
 
   return (
     <LangContextProvider>
@@ -29,7 +37,7 @@ export default function App () {
         <Header />
       </ErrorBoundary>
 
-      <main /*className={styles.mainColumn}*/>
+      <main ref={body} className={styles.main}>
         <ErrorBoundary>
           {currentRoute || <GoHome /> }
         </ErrorBoundary>
