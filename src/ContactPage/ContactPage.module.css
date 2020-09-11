@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main section {
+  flex-grow: 1;
+  margin: 10px;
+  min-width: 75px;
+}
+
+.main section:last-child {
+  flex-basis: 100%;
+}
+
+.main ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contactList li {
+  margin: 10px;
+}
+
+.icon {
+  font-size: 24px;
+  margin-bottom: -5px;
+  margin-right: 5px;
+}
+
+.socialIcon {
+  font-size: 42px;
+  color: black;
+}
+
+/* Display as one line. */
+.socialIcons {
+  display: flex;
+  list-style: none;
+  color: black;
+}
+
+.whatsappIcon {
+  composes: icon;
+  color: #17980E;
+  margin-right: 3px;
+}
+
+.facebookIcon {
+  composes: socialIcon;
+  color: #3A5796;
+}
