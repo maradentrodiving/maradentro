@@ -11,7 +11,7 @@ import { contactEmail, contactNumberShop, contactNumberOscar, instagramURL, face
 import styles from './ContactPage.module.css'
 import Map from '../Map/Map'
 
-const translations = {
+export const translations = {
   title: [
     "Contact Mar Adentro Diving Mahahual",
     "Contactar Mar Adentro Mahahual"
@@ -22,6 +22,8 @@ const translations = {
   location: ['Location', 'Ubicación'],
   clickToOpen: ['click to open', 'haz click para abrir'],
   daysOpen: ['Monday – Sunday', 'Desde lunes a domingo'],
+  openingHours: ['8:30 AM – 6 PM', '8:30 – 18:00'],
+  mexico: ['Mexico', 'México'],
 }
 
 export const PhoneNumber = ({ number }) => (
