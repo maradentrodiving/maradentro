@@ -3,6 +3,7 @@ import LangContext from '../LangContext'
 import styles from './Header.module.css'
 import * as routes from '../routes'
 import { assert } from '../utils'
+// import backgroundImage from images/cropped-sun.jpg
 // import { A, navigate } from 'hookrouter'
 
 const RouteLabel = ({ route }) => (

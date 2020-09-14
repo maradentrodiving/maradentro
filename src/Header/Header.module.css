@@ -1,6 +1,7 @@
 .header {
-  background-color: green;
-  min-height: 70px;
+  background-image: url('../images/cropped-sun.jpg');
+  background-size: cover;
+  min-height: 240px;
 }
 
 .header ul {
