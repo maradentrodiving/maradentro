@@ -48,11 +48,11 @@ export default () => (
     </p>
 
     <p>
-      <strong>Price:</strong> $${prices.dsd}.
+      <strong>Price:</strong> ${prices.dsd}.
     </p>
 
     <p>
-      <strong>RepeatScuba (DSD 2 dives):</strong> $${prices.dsdRepeat}.
+      <strong>RepeatScuba (DSD 2 dives):</strong> ${prices.dsdRepeat}.
     </p>
   </>
 )
