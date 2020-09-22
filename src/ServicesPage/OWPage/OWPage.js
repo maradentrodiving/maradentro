@@ -7,8 +7,8 @@ import ContentES from './content.es.js'
 
 const translations = {
   title: [
-    "",
-    "",
+    "PADI Open Water Diver",
+    "PADI Open Water Diver",
   ],
   content: [<ContentEN />, <ContentES />]
 }

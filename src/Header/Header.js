@@ -33,8 +33,18 @@ export default function Header () {
       routes[setLang][key].path === window.location.pathname
     ))
 
-    // navigate(routes[toLang][routeKey].path)
-    window.location = routes[toLang][routeKey].path
+    if (routeKey) {
+      // navigate(routes[toLang][routeKey].path)
+      window.location = routes[toLang][routeKey].path
+    } else {
+      const { servicesPagePath } = routes[setLang]
+
+      const serviceKey = Object.keys(servicesPagePath.pages).find(key => (
+        window.location.pathname === `${servicesPagePath.path}/${servicesPagePath.pages[key]}`
+      ))
+
+      window.location = `${routes[toLang].servicesPagePath.path}/${routes[toLang].servicesPagePath.pages[serviceKey]}`
+    }
   }
 
   return (

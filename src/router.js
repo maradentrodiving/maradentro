@@ -22,10 +22,10 @@ export default {
   [routes.en.divingCostaMayaPagePath.path]: () => <DivingCostaMayaPage lang="en" />,
   [routes.en.contactPagePath.path]: () => <ContactPage lang="en" />,
 
-  [routes.en.servicesPagePath.pages.dsd]: () => <DSDPage lang="en" />,
-  [routes.en.servicesPagePath.pages.ow]: () => <OWPage lang="en" />,
-  [routes.en.servicesPagePath.pages.aow]: () => <AOWPage lang="en" />,
-  [routes.en.servicesPagePath.pages.rescue]: () => <RescuePage lang="en" />,
+  [`${routes.en.servicesPagePath.path}/${routes.en.servicesPagePath.pages.dsd}`]: () => <DSDPage lang="en" />,
+  [`${routes.en.servicesPagePath.path}/${routes.en.servicesPagePath.pages.ow}`]: () => <OWPage lang="en" />,
+  [`${routes.en.servicesPagePath.path}/${routes.en.servicesPagePath.pages.aow}`]: () => <AOWPage lang="en" />,
+  [`${routes.en.servicesPagePath.path}/${routes.en.servicesPagePath.pages.rescue}`]: () => <RescuePage lang="en" />,
 
   // Defaulting to ES.
   [routes.es.servicesPagePath.path]: () => <ServicesPage lang="es" />,
@@ -33,8 +33,8 @@ export default {
   [routes.es.divingCostaMayaPagePath.path]: () => <DivingCostaMayaPage lang="es" />,
   [routes.es.contactPagePath.path]: () => <ContactPage lang="es" />,
 
-  [routes.es.servicesPagePath.pages.dsd]: () => <DSDPage lang="es" />,
-  [routes.es.servicesPagePath.pages.ow]: () => <OWPage lang="es" />,
-  [routes.es.servicesPagePath.pages.aow]: () => <AOWPage lang="es" />,
-  [routes.es.servicesPagePath.pages.rescue]: () => <RescuePage lang="es" />,
+  [`${routes.es.servicesPagePath.path}/${routes.es.servicesPagePath.pages.dsd}`]: () => <DSDPage lang="es" />,
+  [`${routes.es.servicesPagePath.path}/${routes.es.servicesPagePath.pages.ow}`]: () => <OWPage lang="es" />,
+  [`${routes.es.servicesPagePath.path}/${routes.es.servicesPagePath.pages.aow}`]: () => <AOWPage lang="es" />,
+  [`${routes.es.servicesPagePath.path}/${routes.es.servicesPagePath.pages.rescue}`]: () => <RescuePage lang="es" />,
 }

@@ -13,7 +13,7 @@ export const en = {
 
 export const es = {
   homePagePath: {path: '/', label: 'Home'},
-  servicesPagePath: {path: '/services', label: 'Servicios', pages: {
+  servicesPagePath: {path: '/servicios', label: 'Servicios', pages: {
     dsd: 'bautismo-de-buceo',
     ow: 'padi-open-water-diver',
     aow: 'padi-advanced-open-water-diver',
