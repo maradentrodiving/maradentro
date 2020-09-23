@@ -12,10 +12,14 @@ export const instagramURL = 'https://www.instagram.com/maradentrodiving/'
 /* Price list */
 export const pricesEN = {
   dsd: 95,
-  dsdRepeat: 120
+  dsdRepeat: 120,
+  ow: 385,
+  aow: 370,
 }
 
 export const pricesES = {
   dsd: 1800,
-  dsdRepeat: 2200
+  dsdRepeat: 2200,
+  ow: 7200,
+  aow: 1,
 }
