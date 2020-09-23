@@ -58,6 +58,8 @@ export default () => (
     <p>
       The course includes:
       All the materials, instruction, equipment and certification.
+    </p>
+
     <p>
       <strong>Duration:</strong> 2-3 days.
     </p>

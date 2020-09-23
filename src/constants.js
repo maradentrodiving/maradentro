@@ -15,6 +15,8 @@ export const pricesEN = {
   dsdRepeat: 120,
   ow: 385,
   aow: 370,
+  rescue: 1,
+  efr: 110
 }
 
 export const pricesES = {
@@ -22,4 +24,6 @@ export const pricesES = {
   dsdRepeat: 2200,
   ow: 7200,
   aow: 1,
+  rescue: 1,
+  efr: 1
 }

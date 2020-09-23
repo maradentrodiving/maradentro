@@ -11,6 +11,7 @@ import DSDPage from './ServicesPage/DSDPage/DSDPage'
 import OWPage from './ServicesPage/OWPage/OWPage'
 import AOWPage from './ServicesPage/AOWPage/AOWPage'
 import RescuePage from './ServicesPage/RescuePage/RescuePage'
+import EFRPage from './ServicesPage/EFRPage/EFRPage'
 
 export default {
   // Without default language.
@@ -26,6 +27,7 @@ export default {
   [`${routes.en.servicesPagePath.path}/${routes.en.servicesPagePath.pages.ow}`]: () => <OWPage lang="en" />,
   [`${routes.en.servicesPagePath.path}/${routes.en.servicesPagePath.pages.aow}`]: () => <AOWPage lang="en" />,
   [`${routes.en.servicesPagePath.path}/${routes.en.servicesPagePath.pages.rescue}`]: () => <RescuePage lang="en" />,
+  [`${routes.en.servicesPagePath.path}/${routes.en.servicesPagePath.pages.efr}`]: () => <EFRPage lang="en" />,
 
   // Defaulting to ES.
   [routes.es.servicesPagePath.path]: () => <ServicesPage lang="es" />,
@@ -37,4 +39,5 @@ export default {
   [`${routes.es.servicesPagePath.path}/${routes.es.servicesPagePath.pages.ow}`]: () => <OWPage lang="es" />,
   [`${routes.es.servicesPagePath.path}/${routes.es.servicesPagePath.pages.aow}`]: () => <AOWPage lang="es" />,
   [`${routes.es.servicesPagePath.path}/${routes.es.servicesPagePath.pages.rescue}`]: () => <RescuePage lang="es" />,
+  [`${routes.es.servicesPagePath.path}/${routes.es.servicesPagePath.pages.efr}`]: () => <EFRPage lang="es" />,
 }
