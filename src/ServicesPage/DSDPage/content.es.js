@@ -9,7 +9,7 @@ export default () => (
     </p>
 
     <p>
-      EL DSD no es un curso, sino el entrenamiento mínimo necesario para bucear sin estar certificado y es ideal si no se dispone de tiempo para el <a href="/servicios/padi-open-water-diver">Open Water</a> o solo se quiere probar el buceo con SCUBA. Y si te gusta y quieres hacerte buceador, el DSD te servirá como parte del curso al continuar con nosotros u otro centro PADI.
+      EL DSD no es un curso, sino el entrenamiento mínimo necesario para bucear sin estar certificado y es ideal si no se dispone de tiempo para el <a href="/servicios/padi-open-water-diver">Open Water</a> o solo se quiere probar el buceo con SCUBA. Y si te gusta y quieres hacerte buceador, el DSD te servirá como parte del curso al continuar con nosotros u otro centro <a href="https://padi.com">PADI</a>.
     </p>
 
     <p>

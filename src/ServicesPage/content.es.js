@@ -21,7 +21,7 @@ export default () => (
 
     <h3>PADI Open Water Diver</h3>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      El curso PADI OWD es el más popular del mundo del buceo. Te permitirá descender con un guía o, por tu cuenta con un compañero, hasta una profundidad máxima de 18 metros. A nivel internacional y de por vida. ¡Tu aventura en el buceo SCUBA comienza aquí!
     </p>
 
     <p>
