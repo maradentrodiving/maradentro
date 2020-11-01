@@ -24,6 +24,9 @@ export const pricesEN = {
   rescue: 385,
   efr: 110,
   // profundo: ?
+  // chinchorro: ?
+  // safariTresTanques: 2850,
+  // safariDosTanques: 2500
 }
 
 export const pricesES = {
@@ -34,5 +37,8 @@ export const pricesES = {
   advd: 4500,
   rescue: 7200,
   efr: 1500,
-  profundo: 4200
+  profundo: 4200,
+  chinchorro: 4250,
+  safariTresTanques: 2850,
+  safariDosTanques: 2500
 }

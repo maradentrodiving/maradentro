@@ -13,6 +13,8 @@ import AOWPage from './ServicesPage/AOWPage/AOWPage'
 import RescuePage from './ServicesPage/RescuePage/RescuePage'
 import EFRPage from './ServicesPage/EFRPage/EFRPage'
 import EBPPage from './ServicesPage/EBPPage/EBPPage'
+import ChinchorroPage from './ChinchorroPage/ChinchorroPage'
+import SafariPage from './SafariPage/SafariPage'
 
 export default {
   // Without default language.
@@ -22,6 +24,8 @@ export default {
   [routes.en.servicesPagePath.path]: () => <ServicesPage lang="en" />,
   [routes.en.aboutPagePath.path]: () => <AboutPage lang="en" />,
   [routes.en.divingCostaMayaPagePath.path]: () => <DivingCostaMayaPage lang="en" />,
+  [routes.en.chinchorroPagePath.path]: () => <ChinchorroPage lang="en" />,
+  [routes.en.safariPagePath.path]: () => <SafariPage lang="en" />,
   [routes.en.contactPagePath.path]: () => <ContactPage lang="en" />,
 
   [`${routes.en.servicesPagePath.path}/${routes.en.servicesPagePath.pages.dsd}`]: () => <DSDPage lang="en" />,
@@ -35,6 +39,8 @@ export default {
   [routes.es.servicesPagePath.path]: () => <ServicesPage lang="es" />,
   [routes.es.aboutPagePath.path]: () => <AboutPage lang="es" />,
   [routes.es.divingCostaMayaPagePath.path]: () => <DivingCostaMayaPage lang="es" />,
+  [routes.es.chinchorroPagePath.path]: () => <ChinchorroPage lang="es" />,
+  [routes.es.safariPagePath.path]: () => <SafariPage lang="es" />,
   [routes.es.contactPagePath.path]: () => <ContactPage lang="es" />,
 
   [`${routes.es.servicesPagePath.path}/${routes.es.servicesPagePath.pages.dsd}`]: () => <DSDPage lang="es" />,

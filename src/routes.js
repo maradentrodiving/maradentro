@@ -8,6 +8,8 @@ export const en = {
     efr: 'emergency-first-response',
     profundo: 'padi-deep-diver'
   }},
+  chinchorroPagePath: {path: '/chinchorro', label: 'Chinchorro'},
+  safariPagePath: {path: '/lion-fish-safari', label: 'Lion Fish Safari'},
   aboutPagePath: {path: '/about', label: 'About'},
   divingCostaMayaPagePath: {path: '/diving-costa-maya', label: 'Diving Costa Maya'},
   contactPagePath: {path: '/contact', label: 'Contact us'},
@@ -23,7 +25,9 @@ export const es = {
     efr: 'emergency-first-response',
     profundo: 'buceo-profundo'
   }},
-  aboutPagePath: {path: '/acerca-de', label: 'Acerca de'},
+  chinchorroPagePath: {path: '/el-banco-chinchorro', label: 'Chinchorro'},
+  safariPagePath: {path: '/safari-de-pez-leon', label: 'Safari de pez león'},
+  aboutPagePath: {path: '/sobre-nosotros', label: 'Sobre nosotros'},
   divingCostaMayaPagePath: {path: '/buceo-en-costa-maya', label: 'Buceo en Costa Maya'},
   contactPagePath: {path: '/contacto', label: 'Contacto'},
 }
