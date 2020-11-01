@@ -1,6 +1,6 @@
 export const en = {
   homePagePath: {path: '/', label: 'Home'},
-  servicesPagePath: {path: '/services', label: 'Services', pages: {
+  servicesPagePath: {path: '/services', label: 'Teaching', pages: {
     dsd: 'discover-scuba-diving',
     ow: 'padi-open-water-diver',
     aow: 'padi-advanced-open-water-diver',
@@ -22,7 +22,7 @@ export const en = {
 
 export const es = {
   homePagePath: {path: '/', label: 'Home'},
-  servicesPagePath: {path: '/servicios', label: 'Servicios', pages: {
+  servicesPagePath: {path: '/servicios', label: 'Enseñanza', pages: {
     dsd: 'bautismo-de-buceo',
     ow: 'padi-open-water-diver',
     aow: 'padi-advanced-open-water-diver',
