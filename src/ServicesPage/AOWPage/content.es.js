@@ -45,7 +45,7 @@ export default () => (
     </p>
 
     <p>
-      El sistema PADI te permite ir uniendo buceos según te convenga. ¿Te apetece sentir la narcosis al bucear profundo? ¿Prefieres hacer un listado de los peces existentes en la Costa Maya? Eres tú quien decide.
+      El sistema <a href="https://padi.com">PADI</a> te permite ir uniendo buceos según te convenga. ¿Te apetece sentir la narcosis al bucear profundo? ¿Prefieres hacer un listado de los peces existentes en la Costa Maya? Eres tú quien decide.
     </p>
 
     <h3>El curso incluye</h3>
@@ -67,6 +67,6 @@ export default () => (
       Adventure Diver: {prices.advd} pesos
     </p>
 
-    <h2>¿Te queda alguna duda? Pregúntanos.</h2>
+    <h2>¿Te queda alguna duda? <a href="/contacto">Pregúntanos</a>.</h2>
   </>
 )

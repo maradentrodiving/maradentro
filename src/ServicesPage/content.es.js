@@ -39,7 +39,7 @@ export default () => (
 
     <h3>PADI Rescue Diver</h3>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Quien decide tomar un PADI Rescue Diver está dando un paso importante que denota confianza en sí mismo como buceador. El curso nos enseña a mirar más allá de nosotros y preocuparnos por la seguridad de nuestros compañeros de inmersión.
     </p>
 
     <p>
