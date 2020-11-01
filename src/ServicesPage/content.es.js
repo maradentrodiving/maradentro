@@ -30,7 +30,7 @@ export default () => (
 
     <h3>PADI Advanced Open Water Diver</h3>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Cinco escenarios sugerentes, cinco inmersiones en las que los arrecifes de Mahahual te harán enfrentarte a nuevas emociones. Desciende más profundo, bucea de noche, déjate llevar por la corriente... Sin duda, el PADI AOW es un curso muy atractivo.
     </p>
 
     <p>
