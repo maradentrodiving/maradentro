@@ -46,13 +46,18 @@ export default () => (
       <a href={`${servicesPagePath.path}/${servicesPagePath.pages.rescue}`}>Leer más</a>
     </p>
 
-    <h3>Emergency First Response</h3>
+    <h3>Emergency First Response (EFR)</h3>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Este curso reúne técnicas de resucitación cardio pulmonar (CPR por sus siglas en inglés), y un entrenamiento de primeros auxilios. Un paso grande en tu entrenamiento.
     </p>
 
     <p>
-      <a href={`${servicesPagePath.path}/${servicesPagePath.pages.efr}`}>Read more</a>
+      <a href={`${servicesPagePath.path}/${servicesPagePath.pages.efr}`}>Leer más</a>
+    </p>
+
+    <h3>Especialidad de buceo profundo</h3>
+    <p>
+      <a href={`${servicesPagePath.path}/${servicesPagePath.pages.profundo}`}>Leer más</a>
     </p>
   </>
 )

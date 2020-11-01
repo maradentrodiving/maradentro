@@ -5,7 +5,8 @@ export const en = {
     ow: 'padi-open-water-diver',
     aow: 'padi-advanced-open-water-diver',
     rescue: 'padi-rescue-diver',
-    efr: 'emergency-first-response'
+    efr: 'emergency-first-response',
+    profundo: 'padi-deep-diver'
   }},
   aboutPagePath: {path: '/about', label: 'About'},
   divingCostaMayaPagePath: {path: '/diving-costa-maya', label: 'Diving Costa Maya'},
@@ -19,7 +20,8 @@ export const es = {
     ow: 'padi-open-water-diver',
     aow: 'padi-advanced-open-water-diver',
     rescue: 'padi-rescue-diver',
-    efr: 'emergency-first-response'
+    efr: 'emergency-first-response',
+    profundo: 'buceo-profundo'
   }},
   aboutPagePath: {path: '/acerca-de', label: 'Acerca de'},
   divingCostaMayaPagePath: {path: '/buceo-en-costa-maya', label: 'Buceo en Costa Maya'},

@@ -38,7 +38,7 @@ export default () => (
     </p>
 
     <p>
-      Precio: {precios.rescue} pesos
+      Precio: {prices.rescue} pesos
     </p>
 
     <p>

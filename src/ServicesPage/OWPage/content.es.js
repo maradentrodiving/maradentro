@@ -1,10 +1,6 @@
 import React from 'react'
-import { pricesES as prices, tripAdvisorURL, instagramURL } from '../../constants'
+import { pricesES as prices, instagramURL } from '../../constants'
 
-// PADI link a PADI
-// Sólida formación link a algún review sobre cursos de TAd
-// Más segura y divertida link al video GoPr964_1 “Vamos para Singapur
-// los arrecifes: sería mejor al vídeo GOPR7166
 export default () => (
   <>
     <h1>PADI Open Water Diver</h1>
@@ -23,7 +19,7 @@ export default () => (
 
     <h3>¿Cuánto tiempo llevará?</h3>
     <p>
-      Todos los cursos PADI se basan en el avance del estudiante, por lo que no hay un tiempo máximo. En Mar Adentro Diving damos una atención personalizada, por lo que un promedio de 3 días es suficiente para completarlo de manera satisfactoria.
+      Todos los cursos <a href="https://padi.com">PADI</a> se basan en el avance del estudiante, por lo que no hay un tiempo máximo. En Mar Adentro Diving damos una atención personalizada, por lo que un promedio de 3 días es suficiente para completarlo de manera satisfactoria.
     </p>
 
     <h3>¿De qué se trata?</h3>

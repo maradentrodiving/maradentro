@@ -22,7 +22,8 @@ export const pricesEN = {
   aow: 370,
   // advd: ?,
   rescue: 385,
-  efr: 110
+  efr: 110,
+  // profundo: ?
 }
 
 export const pricesES = {
@@ -33,4 +34,5 @@ export const pricesES = {
   advd: 4500,
   rescue: 7200,
   efr: 1500,
+  profundo: 4200
 }
