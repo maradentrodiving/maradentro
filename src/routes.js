@@ -8,10 +8,15 @@ export const en = {
     efr: 'emergency-first-response',
     profundo: 'padi-deep-diver'
   }},
+  mahahualPagePath: {path: '/mahahual', label: 'Mahahual', pages: {
+    quePodrasVer: 'what-can-you-see',
+    nocturno: 'night-dive',
+    divingCostaMaya: 'diving-in-gran-barrera-maya',
+    yate: 'yacht-rent',
+  }},
   chinchorroPagePath: {path: '/chinchorro', label: 'Chinchorro'},
   safariPagePath: {path: '/lion-fish-safari', label: 'Lion Fish Safari'},
   aboutPagePath: {path: '/about', label: 'About'},
-  divingCostaMayaPagePath: {path: '/diving-costa-maya', label: 'Diving Costa Maya'},
   contactPagePath: {path: '/contact', label: 'Contact us'},
 }
 
@@ -25,9 +30,14 @@ export const es = {
     efr: 'emergency-first-response',
     profundo: 'buceo-profundo'
   }},
+  mahahualPagePath: {path: '/mahahual', label: 'Mahahual', pages: {
+    quePodrasVer: 'que-podras-ver',
+    nocturno: 'buceo-nocturno',
+    divingCostaMaya: 'buceo-en-la-gran-barrera-maya',
+    yate: 'renta-de-yate',
+  }},
   chinchorroPagePath: {path: '/el-banco-chinchorro', label: 'Chinchorro'},
   safariPagePath: {path: '/safari-de-pez-leon', label: 'Safari de pez león'},
   aboutPagePath: {path: '/sobre-nosotros', label: 'Sobre nosotros'},
-  divingCostaMayaPagePath: {path: '/buceo-en-costa-maya', label: 'Buceo en Costa Maya'},
   contactPagePath: {path: '/contacto', label: 'Contacto'},
 }

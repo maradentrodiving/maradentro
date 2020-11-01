@@ -27,6 +27,11 @@ export const pricesEN = {
   // chinchorro: ?
   // safariTresTanques: 2850,
   // safariDosTanques: 2500
+  // unTanque: 900,
+  // dosTanques: 1600,
+  // tresTanques: 2200,
+  // cuatroTanques: 3000,
+  // seisTanques: 3800,
 }
 
 export const pricesES = {
@@ -40,5 +45,12 @@ export const pricesES = {
   profundo: 4200,
   chinchorro: 4250,
   safariTresTanques: 2850,
-  safariDosTanques: 2500
+  safariDosTanques: 2500,
+  unTanque: 900,
+  dosTanques: 1600,
+  tresTanques: 2200,
+  cuatroTanques: 3000,
+  seisTanques: 3800,
+  nocturno: 1200,
+  linterna: 170
 }
