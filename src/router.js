@@ -3,6 +3,7 @@ import * as routes from './routes'
 
 import HomePage from './HomePage/HomePage'
 import ServicesPage from './ServicesPage/ServicesPage'
+import MahahualPage from './MahahualPage/MahahualPage'
 import AboutPage from './AboutPage/AboutPage'
 import ContactPage from './ContactPage/ContactPage'
 
@@ -26,6 +27,7 @@ export default {
 
   // Defaulting to EN.
   [routes.en.servicesPagePath.path]: () => <ServicesPage lang="en" />,
+  [routes.en.mahahualPagePath.path]: () => <MahahualPage lang="en" />,
   [routes.en.aboutPagePath.path]: () => <AboutPage lang="en" />,
   [routes.en.chinchorroPagePath.path]: () => <ChinchorroPage lang="en" />,
   [routes.en.safariPagePath.path]: () => <SafariPage lang="en" />,
@@ -45,6 +47,7 @@ export default {
 
   // Defaulting to ES.
   [routes.es.servicesPagePath.path]: () => <ServicesPage lang="es" />,
+  [routes.es.mahahualPagePath.path]: () => <MahahualPage lang="es" />,
   [routes.es.aboutPagePath.path]: () => <AboutPage lang="es" />,
   [routes.es.chinchorroPagePath.path]: () => <ChinchorroPage lang="es" />,
   [routes.es.safariPagePath.path]: () => <SafariPage lang="es" />,
