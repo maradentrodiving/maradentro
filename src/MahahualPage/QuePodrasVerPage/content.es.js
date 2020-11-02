@@ -4,7 +4,7 @@ export default () => (
   <>
     <h1>¿Qué podrás ver?</h1>
     <p>
-      Los 10 kilómetros de costa a los que llamamos “buceo local” reúnen hasta cinco tipos de paisajes submarinos distintos (cordilleras atravesadas por cañones, islotes, configuración de dedos y de talud-tablero, manchones), se distribuyen en tres rangos de profundidad: 7-12 metros, 14-30 metros y 28-40 metros y en algunas zonas, ciertos días, la corriente puede ser fuerte. Por ello, también los <a href="/servicios/padi-advanced-open-water">buceadores avanzados</a> encontrarán nuestras inmersiones emocionantes. Además, ofrecemos safaris de exploración y de pesca de pez león para quienes deseen descubrir arrecifes vírgenes y ayudar a protegerlos.
+      Los 10 kilómetros de costa a los que llamamos “buceo local” reúnen hasta cinco tipos de paisajes submarinos distintos (cordilleras atravesadas por cañones, islotes, configuración de dedos y de talud-tablero, manchones), se distribuyen en tres rangos de profundidad: 7-12 metros, 14-30 metros y 28-40 metros y en algunas zonas, ciertos días, la corriente puede ser fuerte. Por ello, también los <a href="/servicios/padi-advanced-open-water-diver">buceadores avanzados</a> encontrarán nuestras inmersiones emocionantes. Además, ofrecemos safaris de exploración y de pesca de pez león para quienes deseen descubrir arrecifes vírgenes y ayudar a protegerlos.
     </p>
 
     <p>
