@@ -43,6 +43,7 @@ export default function Header () {
         window.location.pathname === `${servicesPagePath.path}/${servicesPagePath.pages[key]}`
       ))
 
+      // TODO: Add the same redirection for mahahual pages.
       window.location = `${routes[toLang].servicesPagePath.path}/${routes[toLang].servicesPagePath.pages[serviceKey]}`
     }
   }
